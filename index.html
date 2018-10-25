@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+<head>
+
+<div id="frame1" align=center>
+<h1> Select level:</h1><br>
+<button onClick=diff1() class="lsBtn">1</button>
+<button onClick=diff2() class="lsBtn">2</button>
+<button onClick=diff3() class="lsBtn">3</button>
+<button onClick=diff4() class="lsBtn">4</button>
+<button onClick=diff5() class="lsBtn">5</button>
+<button onClick=diff6() class="lsBtn">6</button>
+<button onClick=diff7() class="lsBtn">7</button>
+<button onClick=diff8() class="lsBtn">8</button>
+<button onClick=diff9() class="lsBtn">9</button>
+<button onClick=diff10() class="lsBtn">10</button>
+<button onClick=diff11() class="lsBtn">11</button>
+</div>
+<div id="frame2" align=center>
+<input id="in1" type=number class="innie" readonly></input><span class="bodytext" id="operator"> &times </span><input id="in2" type=number class="innie" readonly></input><span class="bodytext"> = </span><input id="in3" type=number class="innie"></input>
+<br>
+<button onClick="checkAns()" class="btn" id="ans">CHECK ANSWER</button><br>
+
+<span class="bodytext">You have been playing for: </span><span id="time"></span><span class="bodytext"> seconds.</span>
+<div id="frame3">
+<span id="points"></span>
+<span class="bodytext">correct out of </span>
+<span id="attempts"> </span>
+<span class="bodytext">answered. </span> <br></div>
+
+ 
+</div>
+<script src="script.js"></script>
+</html>

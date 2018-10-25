@@ -1,0 +1,62 @@
+.lsBtn {
+	padding: 20px 20px 20px 20px;
+  color: #ffffff;
+  background-color: #2d2f33;
+	
+}
+
+h1{
+	color:#ffffff;
+	font-family: courier;
+}
+
+#frame1 {
+	display: block;
+	font-family: courier;
+	font-size: 38px;
+	
+}
+
+#frame2,#frame3{
+	display: none;
+	
+}
+.innie {
+	background-color: #e6e6ff;
+	size: 200;
+	margin: 20px 20px 20px 20px;
+} 
+body{
+	background-color: #8cade2;
+	
+}
+#points,#time,#attempts {
+	font-family: courier;
+	font-size: 38px;
+	color: white;
+	
+} 
+input[type=number]{
+    width: 120px;
+	height: 100px;
+	font-family: courier;
+	font-size: 38px;
+	text-align: center;
+} 
+.btn {
+	padding: 20px 20px 20px 20px;
+  color: #ffffff;
+  background-color: #2d2f33;
+  font-family: courier;
+  font-size: 24px;
+  
+}
+.btn:hover {
+  padding: 20px 20px 20px 20px;
+  color: #3169c4;
+}
+.bodytext {
+	font-size: 38px;
+	color: #ffffff;
+	font-family: courier;
+}
